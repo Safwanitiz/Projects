@@ -1,0 +1,362 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   font-family: "Roboto",sans-serif;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    color: #212529;
+    position: fixed;
+    /* background-color:blanchedalmond; */
+    position: fixed;
+    z-index: 9999;
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    padding-left: 100px;
+    padding-right: 50px;  
+    letter-spacing: .65px;
+    gap: 10px;
+    font-size: 13px;
+        font-weight: bold;
+        background-color: transparent;
+}
+ul,a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 15px 20px;
+}
+.logo{
+
+     margin-left: 70px;
+     margin-top: 50px;
+}
+.backimg{
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 460px;
+   
+}
+
+.home{
+    color: #fff;
+}
+.home:hover{
+    color: #0b1033;;
+}
+.aboutus{
+    color: #fff;
+}
+.aboutus:hover{
+    color: #0b1033;;
+}
+.service{
+    color: #0b1033;
+}
+
+.service:hover{
+    color: #0b1033;;
+}
+.portfolio{
+    color: #fff;
+}
+.portfolio:hover{
+    color: #0b1033;;
+}
+
+.contact{
+    color: #fff;
+}
+.contact:hover{
+    color: #0b1033;
+}
+.heroh2{
+    font-size: 72px;
+    color: #0b1033;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    line-height: 1.2;
+}
+.herop{
+        font-size: 24px;
+    color: #6b7d8e;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    padding-top: 15px;
+}
+hr{
+    width: 213px;
+    height: 1px;
+    position: absolute;
+    background: #2238de;
+    left: 250px;
+}
+
+
+.online,.social,.brand{
+        color: #0b1033;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 45px 0px 20px 0px;
+    line-height: 1.2;
+    text-align: center;
+    
+}
+
+.brandp, .onlinep, .socialp{
+        font-size: 15px;
+    line-height: 28px;
+    font-family: "Roboto", sans-serif;
+    color: #7c8d93;
+    font-weight: 600;
+    width: 300px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.card1{
+    width: 290px;
+    height: 495px;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    gap: 80px;
+    padding-top: 100px;
+    margin-right: 100px;
+    
+}
+.card-container2{
+    display: flex;
+    gap: 80px;
+    padding-top: 30px;
+    margin-right: 100px;
+    
+}
+.readmorebutton{
+        opacity: 1;
+    background: transparent;
+    border-color: transparent;
+    padding: 0px 46px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    line-height: 55px;
+    color: rgb(119, 214, 255);
+    border-radius: 33px;
+    text-decoration: none;
+}
+.ctah6{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #7c8d93;
+    padding-bottom: 10px;
+    line-height: 1.2;
+}
+.ctah2{
+        font-size: 48px;
+    color: #0b1033;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    width: 540px;
+    height: 115px;
+}
+.ctap{
+    font-size: 15px;
+    line-height: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #7c8d93;
+    width: 540px;
+    height: 168px;
+}
+.link1{
+    width: 540px;
+    height: 48px;
+    padding: 11px 25px 11px 20px;
+    background: -webkit-linear-gradient(left, #79ccff 0%, #9b75ff 100%);
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding: 11px 25px 11px 20px;
+    line-height: 26px;
+    cursor: pointer;
+}
+.minus{
+    display: inline-block;
+    font-style: normal;
+    position: absolute;
+    left: 515px;
+    line-height: 30px;
+    top: 9px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.innercard{
+    width: 540px;
+    height: 96px;
+    padding: 20px;
+}
+.innercardp{
+    width: 500px;
+    height: 56px;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #7c8d93;
+    
+}
+.outercta{
+    background-image: url(https://preview.colorlib.com/theme/sierra/img/service-bg.jpg.webp);
+    background-size: cover;
+    position: relative;
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 100px 0px;
+    background-attachment: fixed;
+}
+
+
+/* footer css */
+
+.footer-bg {
+  background-image: url(https://preview.colorlib.com/theme/sierra/img/footer-bg.jpg.webp);
+  background-size: cover;
+  padding: 120px 0px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.first-box {
+  display: flex;
+  flex-direction: column;
+  height: 253px;
+  gap: 40px;
+  width: 100%;
+}
+
+.footer-para {
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+
+.second-box {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.second-box-h5 {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.third-box {
+  display: flex;
+  flex-direction: column;
+  height: 253px;
+  gap: 40px;
+  width: 100%;
+}
+
+.third-box-h5 {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.footer-email {
+  width: 100%;
+  padding: 20px 20px;
+  font-style: italic;
+  border: none;
+}
+
+.footer-button {
+  width: 176px;
+  padding: 0px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+  line-height: 58px;
+  border: 6px solid rgba(204, 241, 255, 0.5);
+  border-radius: 33px;
+  background-image: linear-gradient(
+    90deg,
+    #6fbcfe 0%,
+    #998dff 51%,
+    #6fbcfe 100%
+  );
+  color: white;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.bottom-footer {
+  background-color: #0b1033;
+  width: 100%;
+  padding: 40px 40px;
+}
+
+.bottom-footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bottom-footer-p {
+  color: grey;
+  font-size: 18px;
+}
+
+.bottom-footer-icons {
+  display: flex;
+  gap: 50px;
+}
+
+.fa-pinterest,
+.fa-facebook-f,
+.fa-linkedin-in,
+.fa-twitter,
+.fa-basketball,
+.fa-behance {
+  color: grey;
+}
+
+
